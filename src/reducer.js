@@ -1,5 +1,14 @@
 export const initialState = {
-  basket: [],
+  basket: [
+    {
+      id: "9123213",
+      title: "Spalding NBA Replica Indoor/Outdoor Game Ball",
+      price: 28.81,
+      rating: 3,
+      image:
+        "https://images-na.ssl-images-amazon.com/images/I/A1RWcWjPdrL._AC_SL1500_.jpg",
+    },
+  ],
   user: null,
 };
 
@@ -11,7 +20,22 @@ function reducer(state, action) {
 
     case "REMOVE_FROM_BASKET":
       // Logic for Removing item from basket
-      return { state };
+
+      let newBasket = [...state.basket];
+
+      const index = state.basket.findIndex(
+        (basketItem) => basketItem.id === action.id
+      );
+
+      if (index >= 0) {
+        // item exists in basket, remove it...
+        newBasket.splice(index, 1);
+      } else {
+        console.warn(
+          `cant remove product (id: ${action.id}) as its not in the basket!`
+        );
+      }
+      return { ...state, basket: newBasket };
 
     default:
       return state;
