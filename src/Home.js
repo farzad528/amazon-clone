@@ -53,7 +53,7 @@ function Home() {
         <Product
           id="12234"
           title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz, 1000R Curved, QLED, NVIDIA G-SYNC & FreeSync | LC49G95TSSNXZA Model"
-          price={199.99}
+          price={1399.99}
           rating={3}
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC_SL1500_.jpg"
         />
