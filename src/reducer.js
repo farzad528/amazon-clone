@@ -1,14 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      id: "9123213",
-      title: "Spalding NBA Replica Indoor/Outdoor Game Ball",
-      price: 28.81,
-      rating: 3,
-      image:
-        "https://images-na.ssl-images-amazon.com/images/I/A1RWcWjPdrL._AC_SL1500_.jpg",
-    },
-  ],
+  basket: [],
   user: null,
 };
 
@@ -17,6 +8,11 @@ export const getBasketTotal = (basket) =>
 
 function reducer(state, action) {
   switch (action.type) {
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
     case "ADD_TO_BASKET":
       // Logic for adding item to basket
       return { ...state, basket: [...state.basket, action.item] };
