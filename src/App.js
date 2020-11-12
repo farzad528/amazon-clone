@@ -37,8 +37,7 @@ function App() {
     };
   }, []);
 
-  console.log('USER IS>>>>', user);
-
+  console.log("USER IS>>>>", user);
 
   return (
     <Router>

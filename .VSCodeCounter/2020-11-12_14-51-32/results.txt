@@ -1,0 +1,47 @@
+Date : 2020-11-12 14:51:32
+Directory : c:\amazon-clone\amazon-clone\src
+Total : 22 files,  733 codes, 20 comments, 119 blanks, all 872 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         13 |        478 |         20 |         71 |        569 |
+| CSS        |          9 |        255 |          0 |         48 |        303 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                 | files      | code       | comment    | blank      | total      |
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                    |         22 |        733 |         20 |        119 |        872 |
++------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                             | language   | code       | comment    | blank      | total      |
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\amazon-clone\amazon-clone\src\App.css             | CSS        |          3 |          0 |          0 |          3 |
+| c:\amazon-clone\amazon-clone\src\App.js              | JavaScript |         51 |          5 |          9 |         65 |
+| c:\amazon-clone\amazon-clone\src\Checkout.css        | CSS        |         15 |          0 |          4 |         19 |
+| c:\amazon-clone\amazon-clone\src\Checkout.js         | JavaScript |         48 |          0 |          4 |         52 |
+| c:\amazon-clone\amazon-clone\src\CheckoutProduct.css | CSS        |         30 |          0 |          7 |         37 |
+| c:\amazon-clone\amazon-clone\src\CheckoutProduct.js  | JavaScript |         33 |          1 |          7 |         41 |
+| c:\amazon-clone\amazon-clone\src\Header.css          | CSS        |         61 |          0 |         13 |         74 |
+| c:\amazon-clone\amazon-clone\src\Header.js           | JavaScript |         61 |          0 |          7 |         68 |
+| c:\amazon-clone\amazon-clone\src\Home.css            | CSS        |         17 |          0 |          4 |         21 |
+| c:\amazon-clone\amazon-clone\src\Home.js             | JavaScript |         64 |          0 |          4 |         68 |
+| c:\amazon-clone\amazon-clone\src\Login.css           | CSS        |         54 |          0 |          8 |         62 |
+| c:\amazon-clone\amazon-clone\src\Login.js            | JavaScript |         67 |          2 |          9 |         78 |
+| c:\amazon-clone\amazon-clone\src\Product.css         | CSS        |         34 |          0 |          6 |         40 |
+| c:\amazon-clone\amazon-clone\src\Product.js          | JavaScript |         39 |          1 |          4 |         44 |
+| c:\amazon-clone\amazon-clone\src\StateProvider.js    | JavaScript |          8 |          5 |          5 |         18 |
+| c:\amazon-clone\amazon-clone\src\Subtotal.css        | CSS        |         28 |          0 |          4 |         32 |
+| c:\amazon-clone\amazon-clone\src\Subtotal.js         | JavaScript |         32 |          0 |          4 |         36 |
+| c:\amazon-clone\amazon-clone\src\firebase.js         | JavaScript |         14 |          0 |          4 |         18 |
+| c:\amazon-clone\amazon-clone\src\index.css           | CSS        |         13 |          0 |          2 |         15 |
+| c:\amazon-clone\amazon-clone\src\index.js            | JavaScript |         16 |          3 |          3 |         22 |
+| c:\amazon-clone\amazon-clone\src\reducer.js          | JavaScript |         33 |          3 |          9 |         45 |
+| c:\amazon-clone\amazon-clone\src\reportWebVitals.js  | JavaScript |         12 |          0 |          2 |         14 |
+| Total                                                |            |        733 |         20 |        119 |        872 |
++------------------------------------------------------+------------+------------+------------+------------+------------+
